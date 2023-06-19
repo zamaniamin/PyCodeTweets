@@ -1,3 +1,12 @@
+"""
+Series: PyCodeTweets 02
+Issue: Testing Access Permissions and CRUD Operations in Django API
+
+GitHub: https://github.com/zamaniamin
+Twitter: https://twitter.com/zamaniamiin
+"""
+
+
 from django.contrib.auth import get_user_model
 from rest_framework.authtoken.models import Token
 from rest_framework import status
