@@ -1,7 +1,3 @@
-from django.core.management.base import BaseCommand
-from myapp.models import MyModel
-
-
 """
 You can create a custom management command in Django to automate the data filling process.
 A management command is a Python script that can be executed using the `manage.py`
@@ -11,6 +7,10 @@ You can define your data creation logic in the custom command's handle method.
 Here's an example:
 Create a new file `<myapp>/management/commands/<fill_data>.py` with the following content:
 """
+
+
+from django.core.management.base import BaseCommand
+from myapp.models import MyModel
 
 
 class Command(BaseCommand):
